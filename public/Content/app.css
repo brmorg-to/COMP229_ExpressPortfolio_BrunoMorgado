@@ -1,0 +1,90 @@
+/* Custom CSS goes here */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-link {
+  font-size: 22px;
+}
+
+.container--about {
+  /* width: 70%; */
+  margin: auto;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+/* About Me */
+
+.introduction--bruno {
+  margin-left: auto;
+  margin-right: auto;
+  height: 66vh;
+  width: 70%;
+  display: flex;
+  margin-top: 15vh;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.name--bruno {
+  margin: auto;
+}
+
+.image--bruno {
+  margin: auto;
+}
+
+.name--bruno h1 {
+  padding: 0;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: Josefin Sans, sans-serif;
+}
+
+.button-scroll {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(119, 117, 117);
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.button-scroll:hover {
+  color: black;
+}
+
+.border--bruno {
+  background-color: #adadad;
+  height: 30px;
+  /* position: absolute;
+  bottom: 50%; */
+  /* margin-bottom: 150px; */
+}
+
+#description--bruno {
+  width: 100%;
+  margin: auto;
+  background-color: #e6e3e3;
+  font-size: 32px;
+  line-height: 62px;
+  font-weight: 400;
+}
+
+.text--bruno {
+  width: 70%;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
