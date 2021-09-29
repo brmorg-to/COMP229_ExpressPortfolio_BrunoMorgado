@@ -88,7 +88,7 @@ html {
 .container--about {
   /* width: 70%; */
   margin: auto;
-  background-color: #e6e3e3;
+  background-color: #fff;
   height: 85vh;
   box-sizing: border-box;
   margin: 0;
@@ -108,6 +108,7 @@ html {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 100px;
+  gap: 15px;
 }
 
 .name--bruno {
@@ -128,6 +129,10 @@ html {
 .image--bruno {
   margin: auto;
   width: 70%;
+}
+
+.image--bruno img {
+  margin-left: 15px;
 }
 
 /* .border--bruno {
