@@ -1,0 +1,29 @@
+<%- include partials/header.ejs %> <%- include partials/main_nav.ejs %>
+
+<!--    contact chart-->
+    
+<div class="container">  
+  <form id="contact" action="mailto:brmorg@gmail.com" method="post">
+    <h3 style="font-size: 40px">Quick Contact</h3>
+    <h4 style="font-size: 20px">Send me a message</h4>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your e-mail address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your phone number" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your message here..." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+    <input id="send-button" type="submit" value="Send"/>
+    </fieldset>
+  </form>
+ 
+  
+</div>
+
+<%- include partials/bottom_nav.ejs %> <%- include partials/footer.ejs %>
