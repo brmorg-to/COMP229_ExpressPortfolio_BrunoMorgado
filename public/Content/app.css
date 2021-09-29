@@ -10,6 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.nav-item {
+  margin-right: 20px;
+}
+
 .home-welcome {
   margin: auto;
   width: 100%;
@@ -178,6 +182,8 @@ html {
 }
 
 .jumbotron {
+  /* width: 70%; */
+  margin: auto;
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
@@ -207,10 +213,27 @@ html {
   column-gap: 15px;
 }
 
+.services {
+  /* width: 50%; */
+  margin: auto;
+  padding-top: 30px;
+  font-size: 22px;
+  text-align: left;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
 /* form */
 
 /* Contact form */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+#contact-me {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
 
 .contact {
   background-color: #212529;
