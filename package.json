@@ -1,9 +1,13 @@
 {
-  "name": "week3.1",
-  "version": "0.0.0",
+  "name": "comp229-f2021",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^12.00.0",
+    "npm": "^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
@@ -16,5 +20,18 @@
     "jquery": "^3.6.0",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "description": "Bruno_POrtfolio",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brmorg-to/COMP229_ExpressPortfolio_BrunoMorgado.git"
+  },
+  "author": "Bruno Morgado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brmorg-to/COMP229_ExpressPortfolio_BrunoMorgado/issues"
+  },
+  "homepage": "https://github.com/brmorg-to/COMP229_ExpressPortfolio_BrunoMorgado#readme"
 }
