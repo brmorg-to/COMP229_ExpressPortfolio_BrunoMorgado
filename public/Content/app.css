@@ -1,19 +1,39 @@
-/* Custom CSS goes here */
+/*    Web Application Development
+ *    Assignment 1
+ *    Custom CSS
+
+ *    Author: Bruno Morgado
+ *    Student# 301154898
+
+ */
+
+/* Set Defaults for all page */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Abel, sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+/* Set space between Nav items */
+
 .nav-item {
   margin-right: 20px;
 }
 
+/* Define style for Home page */
 .home-welcome {
   margin: auto;
   width: 100%;
@@ -27,10 +47,6 @@ html {
   -o-background-size: cover;
   background-size: cover;
   overflow: hidden;
-  /* display: flex;
-  align-items: flex-end;
-  flex-direction: column;
-  gap: 30px; */
 }
 
 .text-box {
@@ -58,9 +74,11 @@ html {
   font-size: 100px;
 }
 
-.description-bruno {
+/* .description-bruno {
   font-family: roboto, sans-serif;
-}
+} */
+
+/* Style the about page */
 
 .about-bruno {
   align-self: center;
@@ -140,15 +158,7 @@ html {
   margin-left: 15px;
 }
 
-/* .border--bruno {
-  background-color: #adadad;
-  height: 20px;
-  position: absolute;
-  bottom: 50%;
-  margin-bottom: 150px;
-} */
-
-#description--bruno {
+/* #description--bruno {
   width: 100%;
   margin: auto;
   color: #e5e3e3;
@@ -161,9 +171,8 @@ html {
 .text--bruno {
   width: 70%;
   margin: auto;
-  /* padding-top: 100px;
-  padding-bottom: 100px; */
-}
+  
+} */
 
 .information-bruno {
   display: flex;
@@ -181,6 +190,8 @@ html {
   font-size: 22px;
   border-radius: 10px;
 }
+
+/* Set the style of the Projects Page */
 
 .container-project {
   min-height: 100vh;
@@ -265,27 +276,6 @@ html {
   height: 80vh;
   padding-top: 30px;
 }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  font-family: Abel, sans-serif;
-}
-/* 
-.container2 {
-  max-width: 400px;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-} */
 
 #contact input[type="text"],
 #contact input[type="email"],
@@ -375,10 +365,6 @@ fieldset {
   -moz-transition: background 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
 }
-
-/* #send-button:active {
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-} */
 
 #contact input:focus,
 #contact textarea:focus {
