@@ -128,6 +128,7 @@ html {
 
 .name--bruno p {
   font-size: 20px;
+  margin-right: 20px;
 }
 
 .image--bruno {
@@ -164,13 +165,13 @@ html {
   padding-bottom: 100px; */
 }
 
-.resume-download {
+.information-bruno {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
-.resume-bruno a {
+.information-bruno a {
   text-decoration: none;
   color: rgb(51, 200, 201);
   /* background-color: #adadad; */
@@ -181,6 +182,9 @@ html {
   border-radius: 10px;
 }
 
+.container-project {
+  min-height: 100vh;
+}
 .jumbotron {
   /* width: 70%; */
   margin: auto;
@@ -211,6 +215,16 @@ html {
   /* align-items: center; */
   row-gap: 30px;
   column-gap: 15px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-description {
+  font-size: 25px;
+  display: inline-block;
 }
 
 .services {
