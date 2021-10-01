@@ -249,6 +249,17 @@ html {
   font-size: 18px;
 }
 
+#contact-me a {
+  text-decoration: none;
+  color: rgb(51, 200, 201);
+  /* background-color: #adadad; */
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 22px;
+  border-radius: 10px;
+}
+
 .contact {
   background-color: #212529;
   height: 80vh;
