@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./server.js"
+    "start": "nodemon ./server.js"
   },
   "engines": {
     "node": "^14.18.0",
@@ -18,12 +18,12 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "jquery": "^3.6.0",
+    "mongoose": "^6.0.10",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
   },
   "description": "Bruno_POrtfolio",
   "main": "index.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brmorg-to/COMP229_ExpressPortfolio_BrunoMorgado.git"
