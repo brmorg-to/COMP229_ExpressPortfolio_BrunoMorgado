@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-const app = require("./config/app");
+const app = require("./server/config/app");
 const debug = require("debug")("week3.1:server");
 const http = require("http");
 
