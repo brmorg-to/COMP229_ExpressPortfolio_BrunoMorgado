@@ -32,9 +32,10 @@ router.get("/add", (req, res, next) => {
 /* POST Route for processing the Add page - CREATE operation */
 
 router.post("/add", (req, res, next) => {
+  console.log(req.body);
   let newContact = Contact({
-    contact_name: req.body.contact_name,
-    contact_number: req.body.contact_number,
+    contact_name: req.body.name,
+    contact_number: req.body.phone,
     email: req.body.email,
   });
 
@@ -75,8 +76,8 @@ router.post("/edit/:id", (req, res, next) => {
 
   let updatedContact = Contact({
     _id: id,
-    contact_name: req.body.contact_name,
-    contact_number: req.body.contact_number,
+    contact_name: req.body.name,
+    contact_number: req.body.phone,
     email: req.body.email,
   });
 
