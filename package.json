@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "nodemon -e ejs ./server.js"
+    "start": "nodemon ./server.js -e ejs,js"
   },
   "engines": {
     "node": "^14.18.0",

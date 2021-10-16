@@ -25,6 +25,7 @@
 
 html {
   scroll-behavior: smooth;
+  height: auto;
 }
 
 /* Set space between Nav items */
