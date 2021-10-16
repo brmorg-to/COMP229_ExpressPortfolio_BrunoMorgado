@@ -5,6 +5,14 @@ const path = require("path");
 const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 
+//modules for authentication
+
+const session = require("express-session");
+const passport = require("passport");
+const passportLocal = require("passport-local");
+const localStrategy = passportLocal.Strategy;
+const flash = require("connect-flash");
+
 //database setup
 
 const mongoose = require("mongoose");
@@ -36,6 +44,22 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "../../public")));
 app.use(express.static(path.join(__dirname, "../../node_modules")));
+
+//setup express session
+app.use(
+  session({
+    secret: "SomeSecret",
+    saveUninitialized: false,
+    resave: false,
+  })
+);
+
+//initialize flash
+app.use(flash());
+
+//initialize passport
+app.use(passport.initialize());
+app.use(passport.session());
 
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
