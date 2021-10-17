@@ -61,6 +61,19 @@ app.use(flash());
 app.use(passport.initialize());
 app.use(passport.session());
 
+//passport user configuration
+
+// create a User Model instance
+const userModel = require("../models/user");
+const User = userModel.User;
+
+//implement a User Authentication Strategy
+passport.use(User.createStrategy());
+
+//serialize and deserialize the User info
+passport.serializeUser(User.serializeUser());
+passport.deserializeUser(User.deserializeUser());
+
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
 app.use("/contact-list", contactRouter);
