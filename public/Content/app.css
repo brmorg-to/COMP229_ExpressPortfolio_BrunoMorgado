@@ -65,6 +65,10 @@ html {
   text-align: center;
 }
 
+.container {
+  margin-top: 50px;
+}
+
 .hello {
   font-family: Abel, sans-serif;
   font-size: 80px;
@@ -346,6 +350,19 @@ fieldset {
   height: 100px;
   max-width: 100%;
   resize: none;
+}
+
+.btn-primary {
+  color: #00162a;
+  background-color: rgb(51, 200, 201);
+}
+
+.btn-primary:hover {
+  color: rgb(51, 200, 201);
+  background-color: #00162a;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 
 #send-button {
