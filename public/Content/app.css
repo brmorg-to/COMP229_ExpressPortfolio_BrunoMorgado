@@ -355,6 +355,7 @@ fieldset {
 .btn-primary {
   color: #00162a;
   background-color: rgb(51, 200, 201);
+  border: none;
 }
 
 .btn-primary:hover {
