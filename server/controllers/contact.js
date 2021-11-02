@@ -17,7 +17,7 @@ module.exports.displayContactList = (req, res, next) => {
         ContactList,
       });
     }
-  });
+  }).sort({ contact_name: 1 });
 };
 
 module.exports.displayAddPage = (req, res, next) => {
